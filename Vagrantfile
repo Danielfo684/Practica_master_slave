@@ -7,6 +7,8 @@ Vagrant.configure("2") do |config|
     venus.vm.provision "shell", inline: <<-SHELL
     apt-get update
     apt-get install -y bind9 dnsutils
+
+sudo cp /vagrant/venus-conf/named.conf.local /etc/bind/named.conf.local
     SHELL
   end
 
@@ -18,7 +20,10 @@ Vagrant.configure("2") do |config|
     tierra.vm.provision "shell", inline: <<-SHELL
     apt-get update
     apt-get install -y bind9 dnsutils
-    # incluir a través del shell los archivos de configuración
+      sudo cp /vagrant/tierra-conf/named.conf.local /etc/bind/named.conf.local
+      sudo cp /vagrant/tierra-conf/named.conf.options /etc/bind/named.conf.options
+      sudo cp /vagrant/tierra-conf/db.sistema.test /etc/bind/db.sistema.test
+      sudo cp /vagrant/tierra-conf/db.192 /etc/bind/db.192
     SHELL
   end
 end

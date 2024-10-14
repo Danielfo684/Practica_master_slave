@@ -29,3 +29,5 @@ Realizamos los cambios en el conf.local de venus para la zona directa e inversa.
 
 ![Configuración de named.conf.local en Venus](./images/captura-conf-venus-local.png)
 
+7. Con todos los documentos editados correctamente, modificamos la provisión de cada VM para que introduzca los archivos pertinentes al directorio que les corresponde para que el sistema sea replicable en otros equipos.
+    Para ello incluímos varias líneas de código en las provisiones.

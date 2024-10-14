@@ -11,7 +11,7 @@ Repositorio para la práctica de despliegue de aplicaciones web.
     4. Activar DNSSEC
     5.  Asignar la dirección 208.67.222.222 para los reenvíos de consultas.
     
-    ![Configuración de Tierra](./images/captura1.PNH)
+    ![Configuración de Tierra](./images/captura1.PNG)
 
 4. Configuramos named.conf.local y le damos autoridad sobre la zona directa e inversa.
 
@@ -20,14 +20,14 @@ Repositorio para la práctica de despliegue de aplicaciones web.
 
 5. Creamos y configuramos db.sistema.test y db.192 asignando así una configuración de las zonas en cada archivo. En estas configuracione asignamos puertos para las distintas conexiones.
 
-![Configuración de db.sistema.test](./images/captura-db-sistema-test.PNG)
+![Configuración de db.sistema.test](./images/captura-conf-tierra-zonadirecta.PNG)
 
-![Configuración de db.192](./images/captura-db-192.PNG)
+![Configuración de db.192](./images/captura192.PNG)
 
 6. Una vez realizadas dichas configuraciones podemos pasar a la configuración del DNS de Venus.
 Realizamos los cambios en el conf.local de venus para la zona directa e inversa.
 
-![Configuración de named.conf.local en Venus](./images/captura-conf-venus-local.PNG)
+![Configuración de named.conf.local en Venus](./images/local-slave.PNG)
 
 7. Con todos los documentos editados correctamente, modificamos la provisión de cada VM para que introduzca los archivos pertinentes al directorio que les corresponde para que el sistema sea replicable en otros equipos.
     Para ello incluímos varias líneas de código en las provisiones.

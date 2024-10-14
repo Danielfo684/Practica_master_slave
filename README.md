@@ -11,7 +11,7 @@ Repositorio para la práctica de despliegue de aplicaciones web.
     4. Activar DNSSEC
     5.  Asignar la dirección 208.67.222.222 para los reenvíos de consultas.
     
-    ![Configuración de Tierra](./images/captura-conf-tierra.png)
+    ![image 7](./images/captura-conf-tierra.png)
 
 4. Configuramos named.conf.local y le damos autoridad sobre la zona directa e inversa.
 

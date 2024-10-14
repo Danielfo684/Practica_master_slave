@@ -23,3 +23,9 @@ Repositorio para la práctica de despliegue de aplicaciones web.
 ![Configuración de db.sistema.test](./images/captura-db-sistema-test.png)
 
 ![Configuración de db.192](./images/captura-db-192.png)
+
+6. Una vez realizadas dichas configuraciones podemos pasar a la configuración del DNS de Venus.
+Realizamos los cambios en el conf.local de venus para la zona directa e inversa.
+
+![Configuración de named.conf.local en Venus](./images/captura-conf-venus-local.png)
+

@@ -31,3 +31,16 @@ Realizamos los cambios en el conf.local de venus para la zona directa e inversa.
 
 7. Con todos los documentos editados correctamente, modificamos la provisión de cada VM para que introduzca los archivos pertinentes al directorio que les corresponde para que el sistema sea replicable en otros equipos.
     Para ello incluímos varias líneas de código en las provisiones.
+
+8. Realizamos las comprobaciones planteadas en la práctica para asegurarnos de que hemos configurado correctamente la máquina.
+
+![Imagen 1](./images/comprobacion-registrosa.png)
+
+![Imagen 2](./images/comprobacion-inversa.png)
+
+![Imagen 3](./images/consulta-correoficticio.png)
+
+![Imagen 4](./images/consulta-dns.png)
+
+![Imagen 5](./images/verificacion-alias.png)
+![Imagen 6](./images/transferencia-correcta.png)

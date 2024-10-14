@@ -18,3 +18,8 @@ Repositorio para la práctica de despliegue de aplicaciones web.
 ![Configuración de named.conf.local en Tierra](./images/captura-conf-local-tierra.png)
 
 
+5. Creamos y configuramos db.sistema.test y db.192 asignando así una configuración de las zonas en cada archivo. En estas configuracione asignamos puertos para las distintas conexiones.
+
+![Configuración de db.sistema.test](./images/captura-db-sistema-test.png)
+
+![Configuración de db.192](./images/captura-db-192.png)

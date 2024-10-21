@@ -44,3 +44,8 @@ Realizamos los cambios en el conf.local de venus para la zona directa e inversa.
 
 ![Imagen 5](./images/verificacion-alias.png)
 ![Imagen 6](./images/transferencia-correcta.png)
+
+
+RECOMENDACIONES PARA LA INSTALACIÓN:
+sudo apt-get update para ambas máquinas.
+vagrant reload --provision para asegurarnos de que la provisión está instalada.
